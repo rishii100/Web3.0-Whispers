@@ -9,7 +9,6 @@ This project is a decentralized blogging website that leverages blockchain techn
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -79,16 +78,6 @@ npm start
 - Create a new blog or browse existing blogs.
 
 - Compose and publish articles on your blog.
-
-- Interact with other users by commenting on their articles and following their blogs.
-
-- Participate in platform governance by voting on proposed changes.
-
-## Contributing
-
-We welcome contributions to improve this project! If you find a bug or have a feature request, please open an issue. Pull requests for bug fixes, new features, or enhancements are also appreciated.
-
-Please ensure to follow our [Code of Conduct](CODE_OF_CONDUCT.md) while participating in this project.
 
 ## License
 
