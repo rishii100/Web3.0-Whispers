@@ -29,17 +29,17 @@ The Decentralized Blogging Website aims to revolutionize the way content is publ
 
 ## Technologies Used
 
-- Ethereum Blockchain: For decentralized content storage and smart contract functionalities.
+- Ethereum Blockchain
 
-- Solidity: The programming language used for writing smart contracts.
+- Solidity
 
-- IPFS (InterPlanetary File System): For storing and distributing content across the network.
+- IPFS (InterPlanetary File System)
 
-- Web3.js: A JavaScript library for interacting with the Ethereum blockchain.
+- Web3.js
 
-- React.js: A frontend JavaScript library for building the user interface.
+- React.js
 
-- HTML/CSS: For styling and structuring the website.
+- HTML/CSS
 
 ## Installation
 
