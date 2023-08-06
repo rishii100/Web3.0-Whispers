@@ -28,8 +28,6 @@ The Decentralized Blogging Website aims to revolutionize the way content is publ
 
 - **Global Accessibility:** Content published on the platform is accessible globally, without restrictions based on geographical locations.
 
-- **Community Governance:** Platform decisions are driven by a decentralized consensus mechanism, allowing users to participate in governance.
-
 ## Technologies Used
 
 - Ethereum Blockchain: For decentralized content storage and smart contract functionalities.
