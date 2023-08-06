@@ -1,0 +1,33 @@
+.App {
+  height: max-content;
+}
+
+.App .contents .posts {
+  position: relative;
+  top: 16.5vh;
+  left: 27%;
+  width: 100%;
+  position: fixed;
+  overflow-y: auto;
+  max-height: calc(100vh - 20vh);
+}
+
+.App .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+  position: fixed;
+}
+
+@media screen and (max-width: 768px) {
+  .App .contents .posts {
+    top: 15vh;
+    left: 0;
+    width: 100%;
+  }
+}

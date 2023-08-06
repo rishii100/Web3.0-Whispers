@@ -1,0 +1,126 @@
+.Post {
+  margin-bottom: 1rem;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 70%;
+  height: 34vh;
+  background: #f5ddb7;
+  display: flex;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Post .leftContent img {
+  height: 34vh;
+  width: 34vh;
+  border-bottom-left-radius: 20px;
+}
+
+.Post .rightContent {
+  margin-left: 2vh;
+  margin-right: 2vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Post .rightContent img {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 100%;
+  margin-top: 1vh;
+}
+
+.Post .rightContent .authorInfo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.Post .rightContent .authorInfo .right {
+  margin-left: 2vh;
+}
+
+.Post .rightContent hr {
+  width: 100%;
+  border: 1.5px solid #946c2c;
+}
+
+.Post h1,
+p {
+  margin: 0;
+  color: #644b23;
+}
+
+.Post .likeButton {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 2vh;
+}
+
+.Post .lkbtn {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-right: 0.5rem;
+  background-color: #4e832e;
+}
+
+.likeButton button:disabled,
+.likeButton button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.Post .likeButton p {
+  font-size: xx-large;
+  padding: 0.25rem;
+}
+
+.Post p.tags {
+  font-size: larger;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.164);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+@media screen and (max-width: 768px) {
+  .Post {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .Post .leftContent img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .Post .rightContent {
+    margin: 2vh 0;
+  }
+
+  .Post .rightContent img {
+    height: 4vh;
+    width: 4vh;
+  }
+
+  .Post .likeButton p {
+    font-size: large;
+  }
+
+  .Post p.tags {
+    font-size: medium;
+  }
+}
+

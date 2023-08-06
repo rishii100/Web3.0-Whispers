@@ -1,0 +1,150 @@
+.PostModal {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-height: calc(100vh - 10vh);
+  overflow-y: auto;
+  background-color: #fff5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 9999;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  padding: 0px;
+  border: solid 3px #999999;
+}
+
+.PostModal .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.PostModal .header img{
+  width: 100%;
+  height: 30vh;
+}
+
+.PostModal .lkbtn {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-right: 0.5rem;
+  background-color: #4e832e;
+}
+
+.like button:disabled,
+.like button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.PostModal .stuff {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.PostModal .stuff .authorInfo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.PostModal .stuff .authorInfo .right {
+  margin-left: 1vh;
+}
+
+.PostModal .stuff .authorInfo .right .name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #644b23;
+}
+
+.PostModal .stuff .authorInfo .right .add {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #946c2c;
+}
+
+.PostModal .stuff .authorInfo img {
+  height: 6vh;
+  width: 6vh;
+  border-radius: 100%;
+  margin-top: 1vh;
+  margin-left: 2vh;
+  border: solid #946c2c 3px;
+}
+
+.PostModal .stuff .title {
+  margin-left: 2vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  line-height: 60px;
+  font-style: normal;
+  color: #644b23;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.PostModal .stuff .tags {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  color: #946c2c;
+  margin-left: 2vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+
+.PostModal .stuff .content {
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.PostModal .stuff hr {
+  width: 96%;
+  border: 1px solid #946c2c;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.PostModal .like {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.PostModal button {
+  width: 10vh;
+  height: 7vh;
+  margin-right: 2vh;
+}
+
+.PostModal button p {
+  font-size: x-large;
+}
