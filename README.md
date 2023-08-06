@@ -48,13 +48,13 @@ To run the Decentralized Blogging Website locally, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/decentralized-blogging.git
+https://github.com/rishii100/Odyssey-Hackathon-Submission.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd decentralized-blogging
+cd Odyssey-Hackathon-Submission
 ```
 
 3. Install dependencies:
