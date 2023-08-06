@@ -1,6 +1,6 @@
-# Decentralized Blogging Website
+# Web3Whispers: Decentralized blogging website
 
-![Decentralized Blogging Website](blogging_website.png)
+![Link](https://web3-whispers.vercel.app/)
 
 This project is a decentralized blogging website that leverages blockchain technology to provide a censorship-resistant, secure, and transparent platform for users to publish and share content. Unlike traditional Web 2.0 blogging websites, this platform operates in a decentralized manner, giving users more control over their data and content.
 
