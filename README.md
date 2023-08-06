@@ -43,7 +43,7 @@ The Decentralized Blogging Website aims to revolutionize the way content is publ
 
 ## Installation
 
-To run the Decentralized Blogging Website locally, follow these steps:
+To run this Website locally, follow these steps:
 
 1. Clone the repository:
 
