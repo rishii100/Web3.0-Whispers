@@ -13,7 +13,7 @@ This project is a decentralized blogging website that leverages blockchain techn
 
 ## Introduction
 
-The Decentralized Blogging Website aims to revolutionize the way content is published and consumed on the internet. By utilizing blockchain technology and a peer-to-peer network, this platform ensures that content remains immune to censorship and control by any single authority. Users can create their blogs, publish articles, and interact with other users in a trustless and transparent environment.
+This Website aims to revolutionize the way content is published and consumed on the internet. By utilizing blockchain technology and a peer-to-peer network, this platform ensures that content remains immune to censorship and control by any single authority. Users can create their blogs, publish articles, and interact with other users in a trustless and transparent environment.
 
 ## Features
 
